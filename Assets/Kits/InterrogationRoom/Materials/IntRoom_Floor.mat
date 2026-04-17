@@ -7,8 +7,8 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: IntRoom_Wall
-  m_Shader: {fileID: -6465566751694194690, guid: e0aa6e8735cdbc147940c9ef2b2b10cd, type: 3}
+  m_Name: IntRoom_Floor
+  m_Shader: {fileID: -6465566751694194690, guid: 9c77826e856de8e45bc73ff0f51c4a19, type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
   m_ValidKeywords: []
@@ -25,7 +25,7 @@ Material:
     serializedVersion: 3
     m_TexEnvs:
     - _BaseColorTexture:
-        m_Texture: {fileID: 2800000, guid: 2607ab581e92e254f8ddca05f9ec24c2, type: 3}
+        m_Texture: {fileID: 2800000, guid: 5a9f6309c9612154a81207c3a3940b18, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _BaseMap:
@@ -61,7 +61,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _NormalTexture:
-        m_Texture: {fileID: 2800000, guid: 476730bead0b731469c9225ba7de9246, type: 3}
+        m_Texture: {fileID: 2800000, guid: e526559051de2e54993c7a2c6eb23354, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _OcclusionMap:
@@ -74,10 +74,6 @@ Material:
         m_Offset: {x: 0, y: 0}
     - _SpecGlossMap:
         m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _Texture2D:
-        m_Texture: {fileID: 2800000, guid: 2607ab581e92e254f8ddca05f9ec24c2, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - unity_Lightmaps:
@@ -135,7 +131,7 @@ Material:
     - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
   m_BuildTextureStacks: []
   m_AllowLocking: 1
---- !u!114 &19115024857844888
+--- !u!114 &315459479045736995
 MonoBehaviour:
   m_ObjectHideFlags: 11
   m_CorrespondingSourceObject: {fileID: 0}
